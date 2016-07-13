@@ -1,0 +1,17 @@
+created: 20150409114928087
+creator: pmario
+modified: 20160710144218253
+modifier: pmario
+tags: $:/wikilabs/ui
+title: $:/core/ui/ViewTemplate
+type: text/vnd.tiddlywiki
+
+\define wikilabsInfo()
+$:/flag/info/$(currentTiddler)$
+\end
+\define frame-classes()
+tc-tiddler-frame tc-tiddler-view-frame $(missingTiddlerClass)$ $(shadowTiddlerClass)$ $(systemTiddlerClass)$ $(tiddlerTagClasses)$
+\end
+<$set name="storyTiddler" value=<<currentTiddler>>><$set name="tiddlerInfoState" value=<<wikilabsInfo>> ><$set name="tiddlerInfoTabState" value=<<wikilabsInfoTabState>> ><$tiddler tiddler=<<currentTiddler>>><div class=<<frame-classes>>><$list filter="[all[shadows+tiddlers]tag[$:/tags/ViewTemplate]!has[draft.of]]" variable="listItem"><$transclude tiddler=<<listItem>>/></$list>
+</div>
+</$tiddler></$set></$set></$set>

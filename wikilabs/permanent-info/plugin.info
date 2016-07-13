@@ -1,0 +1,10 @@
+{
+	"title": "$:/themes/wikilabs/permanent-info",
+	"name": "Permanent-Info",
+	"author": "Mario Pietsch",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "Makes the info button permanent",
+	"dependents": ["$:/themes/tiddlywiki/snowwhite"],
+	"list": "license readme"
+}

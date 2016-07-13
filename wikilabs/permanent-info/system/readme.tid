@@ -1,0 +1,11 @@
+title: $:/themes/wikilabs/permanent-info/readme
+
+This theme provides a tiddler info button, with a persistent open/close status. The status is saved in "state-variables". 
+
+The "save" configuration tiddlers have been changed. So the new state variables are permanently saved.
+
+*[[$:/config/SyncFilter]]
+*[[$:/config/SaverFilter]]
+
+''Important:'' Those filters need a reload, to take effect :/
+

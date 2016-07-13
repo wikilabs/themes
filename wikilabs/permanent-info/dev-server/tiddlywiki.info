@@ -1,0 +1,17 @@
+{
+	"description": "Dev server for wikilabs permanent info-button theme",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem"
+		],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite",
+		"wikilabs/permanent-info"
+	],
+	"languages": [],
+	"includeWikis": [],
+	"config": {
+		"default-tiddler-location": "./tiddlers"
+	}
+}
