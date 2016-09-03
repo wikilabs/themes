@@ -1,0 +1,33 @@
+tags: $:/tags/Stylesheet $:/wikilabs/ui
+title: $:/themes/wikilabs/slant-01/Stylesheet
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-frame {
+    overflow: hidden;
+}
+
+.tc-titlebar {
+  font-size: 1.1em;
+}
+
+.tc-subtitle {
+    font-size: 0.7em;
+}
+
+.tc-tiddler-controls {
+  font-size: 2.5em
+}
+
+.tc-tiddler-controls button svg {
+ vertical-align: top;
+}
+
+.tc-tiddler-body {
+    border-top: thin solid lightgray;
+}
+
+
+/* TODO */
+.tc-tiddler-infoXXX {
+    padding: 0px 12px;
+}

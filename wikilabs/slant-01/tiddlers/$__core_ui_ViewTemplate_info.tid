@@ -1,0 +1,13 @@
+created: 20150409112822850
+creator: pmario
+modified: 20160715043115035
+modifier: pmario
+tags: $:/tags/ViewTemplate $:/wikilabs/ui
+title: $:/core/ui/ViewTemplate/info
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" text="" default="" state=<<tiddlerInfoState>> class="tc-tiddler-info tc-popup-handle" animate="yes" retain="yes">
+
+<$transclude tiddler="$:/core/ui/TiddlerInfo"/>
+
+</$reveal>

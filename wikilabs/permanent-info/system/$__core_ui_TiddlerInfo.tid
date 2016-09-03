@@ -1,6 +1,0 @@
-tags: $:/wikilabs/ui
-title: $:/core/ui/TiddlerInfo
-type: text/vnd.tiddlywiki
-plugin-type: xxxx
-
-<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/TiddlerInfo]!has[draft.of]]" state=<<tiddlerInfoTabState>> default={{$:/config/TiddlerInfo/Default}}/>

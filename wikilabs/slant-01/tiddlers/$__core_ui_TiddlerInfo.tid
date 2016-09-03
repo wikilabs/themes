@@ -1,0 +1,7 @@
+created: 20160715044326535
+modified: 20160715044332225
+tags: $:/wikilabs/ui
+title: $:/core/ui/TiddlerInfo
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="tabs-state" tabsList="[all[shadows+tiddlers]tag[$:/tags/TiddlerInfo]!has[draft.of]]" state=<<tiddlerInfoTabState>> default={{$:/config/TiddlerInfo/Default}}/>

@@ -1,0 +1,9 @@
+created: 20150409111725996
+creator: pmario
+modified: 20160715043115028
+modifier: pmario
+tags: $:/tags/ViewTemplate $:/wikilabs/ui
+title: $:/core/ui/ViewTemplate/tags
+type: text/vnd.tiddlywiki
+
+<div class="clearfix tc-tags-wrapper"><$list filter="[all[current]tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/></div>

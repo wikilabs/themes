@@ -1,0 +1,24 @@
+created: 20150409104855705
+creator: pmario
+modified: 20160715043115022
+modifier: pmario
+tags: $:/tags/ViewTemplate $:/wikilabs/ui
+title: $:/core/ui/ViewTemplate/title
+type: text/vnd.tiddlywiki
+
+\define title-styles()
+fill:$(foregroundColor)$;
+\end
+<div class="tc-tiddler-title">
+  <div class="tc-titlebar">
+    <$set name="foregroundColor" value={{!!color}}>
+      <span class="tc-tiddler-title-icon" style=<<title-styles>>>
+        <$transclude tiddler={{!!icon}}/>
+      </span>
+    </$set>
+    <span class="tc-title">
+      <$view field="title"/>
+    </span>
+    {{$:/core/ui/ViewTemplate/subtitle}}
+</div>
+</div>
