@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 \define title-styles()
 fill:$(foregroundColor)$;
 \end
-<div class="tc-tiddler-title">
+<div class="clearfix tc-tiddler-title">
   <div class="tc-titlebar">
     <$set name="foregroundColor" value={{!!color}}>
       <span class="tc-tiddler-title-icon" style=<<title-styles>>>

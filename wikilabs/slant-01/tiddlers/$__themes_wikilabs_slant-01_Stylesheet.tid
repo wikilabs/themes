@@ -2,15 +2,16 @@ tags: $:/tags/Stylesheet $:/wikilabs/ui
 title: $:/themes/wikilabs/slant-01/Stylesheet
 type: text/vnd.tiddlywiki
 
-.tc-tiddler-frame {
-    overflow: hidden;
-}
-
-.tc-titlebar {
+.wltc-tiddler-title .tc-titlebar{
+  position: absolute;
   font-size: 1.1em;
 }
 
-.tc-subtitle {
+.wltc-tiddler-title {
+    overflow: hidden;
+}
+
+.wltc-tiddler-title .tc-subtitle {
     font-size: 0.7em;
 }
 
@@ -22,12 +23,21 @@ type: text/vnd.tiddlywiki
  vertical-align: top;
 }
 
-.tc-tiddler-body {
+.tc-tags-wrapper {
+    border-top: thin solid lightgray;
+    padding-top: 2px;
+}
+
+.tc-tiddler-bodyX {
     border-top: thin solid lightgray;
 }
 
+.tc-tiddler-info {
+    padding-right: 12px;
+}
 
-/* TODO */
-.tc-tiddler-infoXXX {
-    padding: 0px 12px;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

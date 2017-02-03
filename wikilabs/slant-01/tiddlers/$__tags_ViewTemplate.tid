@@ -1,6 +1,6 @@
 created: 20150409110757827
 creator: pmario
-list: $:/core/ui/ViewTemplate/controls $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/info $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body
+list: $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/info $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body
 modified: 20160715043115016
 modifier: pmario
 tags: $:/wikilabs/ui
