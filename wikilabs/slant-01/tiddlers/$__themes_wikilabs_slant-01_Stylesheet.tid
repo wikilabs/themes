@@ -24,11 +24,11 @@ type: text/vnd.tiddlywiki
 }
 
 .tc-tags-wrapper {
-    border-top: thin solid lightgray;
     padding-top: 2px;
+    margin-top: -1em;
 }
 
-.tc-tiddler-bodyX {
+.tc-tiddler-body {
     border-top: thin solid lightgray;
 }
 
