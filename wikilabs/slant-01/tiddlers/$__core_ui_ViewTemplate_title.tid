@@ -9,6 +9,7 @@ type: text/vnd.tiddlywiki
 \define title-styles()
 fill:$(foregroundColor)$;
 \end
+\whitespace trim
 <div class="clearfix wltc-tiddler-title">
   <div class="tc-titlebar">
     <$set name="foregroundColor" value={{!!color}}>
@@ -19,7 +20,7 @@ fill:$(foregroundColor)$;
     <span class="tc-title">
       <$view field="title"/>
     </span>
-    {{$:/core/ui/ViewTemplate/subtitle}}
+    {{||$:/core/ui/ViewTemplate/subtitle}}
   </div>
   {{||$:/core/ui/ViewTemplate/controls}}
 </div>

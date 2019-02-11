@@ -13,7 +13,7 @@ $:/state/info/$(currentTiddler)$
 $:/state/infotab/$(currentTiddler)$
 \end
 \define frame-classes()
-tc-tiddler-frame tc-tiddler-view-frame $(missingTiddlerClass)$ $(shadowTiddlerClass)$ $(systemTiddlerClass)$ $(tiddlerTagClasses)$
+tc-tiddler-frame tc-tiddler-view-frame $(missingTiddlerClass)$ $(shadowTiddlerClass)$ $(systemTiddlerClass)$ $(tiddlerTagClasses)$ $(userClass)$
 \end
 \define folded-state()
 $:/state/folded/$(currentTiddler)$
