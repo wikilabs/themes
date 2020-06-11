@@ -8,7 +8,6 @@
 	"description": "slant-01 - an opinionated theme",
 	"dependents": [
 		"$:/themes/tiddlywiki/snowwhite",
-		"$:/plugins/wikilabs/persistent-states",
 		"$:/plugins/wikilabs/info-session",
 		"$:/plugins/wikilabs/info-tagmap",
 		"$:/plugins/wikilabs/multicol-dropdown"
