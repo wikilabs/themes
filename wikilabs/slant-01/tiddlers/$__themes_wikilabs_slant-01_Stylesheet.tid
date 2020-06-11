@@ -19,10 +19,6 @@ type: text/vnd.tiddlywiki
   font-size: 2.5em
 }
 
-.tc-tiddler-controls button svg {
- vertical-align: top;
-}
-
 .tc-tags-wrapper {
     padding-top: 2px;
     margin-top: -1em;
