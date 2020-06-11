@@ -2,8 +2,10 @@ title: $:/themes/wikilabs/slant-01/history
 
 V 0.3.0 2020.06.11
 
-* fix SVG icon position in "more" dropdown
+* Fix SVG icon position in "more" dropdown
+* Adjust tiddler toolbar icon positions
+* Tag pill bottom margin made smaller
 
 V 0.2.1 2016.07.15
 
-* initial version
+* Initial version
