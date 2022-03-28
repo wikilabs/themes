@@ -4,6 +4,10 @@ title: $:/themes/wikilabs/slant-01/readme
 
 This is an opinonated theme, used by pmario.
 
-!!! License
+!! License
 
 CC-BY-NC-SA - {{$:/themes/wikilabs/slant-01/license}}
+
+''Important:'' This plugin modifies a core module and templates
+
+<ul><$list filter="[[$:/themes/wikilabs/slant-01]plugintiddlers[]prefix[$:/core/]] "><li><$link to=<<currentTiddler>>><<currentTiddler>><br></$link></li></$list></ul>
