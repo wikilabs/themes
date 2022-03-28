@@ -1,5 +1,10 @@
 title: $:/themes/wikilabs/slant-01/history
 
+V 0.3.0 2022.03.28
+
+* temporarily add deprecated to the version number
+* update to TW v5.2.2
+
 V 0.3.0 2020.06.11
 
 * Fix SVG icon position in "more" dropdown
