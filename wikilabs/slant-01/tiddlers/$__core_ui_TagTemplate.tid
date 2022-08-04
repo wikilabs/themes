@@ -28,6 +28,7 @@ color:$(foregroundColor)$;
 \end
 
 \define tag-body-inner(colour,fallbackTarget,colourA,colourB)
+\whitespace trim
 <$set name="foregroundColor" value=<<contrastcolour target:"""$colour$""" fallbackTarget:"""$fallbackTarget$""" colourA:"""$colourA$""" colourB:"""$colourB$""">>>
 <$set name="backgroundColor" value="""$colour$""">
 <$button class="tc-btn-invisible tc-tag-label" style=<<tag-styles>>>
