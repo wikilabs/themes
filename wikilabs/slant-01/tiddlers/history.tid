@@ -1,6 +1,11 @@
 title: $:/themes/wikilabs/slant-01/history
 
-V 0.3.0 2022.08.04
+V 0.4.0 2023.01.13
+
+* is still deprecated
+* remove plugin dependency info-session, because it can be configured in TW now
+
+V 0.3.1 2022.08.04
 
 * is still deprecated
 * update to TW v5.2.3
