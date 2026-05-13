@@ -1,0 +1,11 @@
+{
+	"title": "$:/themes/wikilabs/underlinedtabs",
+	"name": "Underlined Tabs",
+	"author": "pmario",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "Segmented-control style underlined tabs",
+	"dependents": ["$:/themes/tiddlywiki/snowwhite","$:/plugins/wikilabs/new-style"],
+	"list": "readme license",
+	"plugin-priority": "10"
+}

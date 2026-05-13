@@ -1,0 +1,11 @@
+{
+	"title": "$:/themes/wikilabs/roundedtabs",
+	"name": "Rounded Tabs",
+	"author": "pmario",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "Segmented-control style rounded tabs",
+	"dependents": ["$:/themes/tiddlywiki/snowwhite"],
+	"list": "readme license",
+	"plugin-priority": "10"
+}
