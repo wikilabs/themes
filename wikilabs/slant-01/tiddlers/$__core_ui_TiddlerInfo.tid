@@ -1,7 +1,17 @@
-created: 20160715044326535
-modified: 20160715044332225
-tags: $:/wikilabs/ui
 title: $:/core/ui/TiddlerInfo
-type: text/vnd.tiddlywiki
 
-<$macrocall $name="tabs-state" tabsList="[all[shadows+tiddlers]tag[$:/tags/TiddlerInfo]!has[draft.of]]" state=<<tiddlerInfoTabState>> default={{$:/config/TiddlerInfo/Default}}/>
+\whitespace trim
+<div style="position:relative;">
+<div class="tc-tiddler-controls tc-tiddler-info-controls">
+<$reveal state="$:/config/TiddlerInfo/Mode" type="match" text="sticky">
+<$button set=<<tiddlerInfoState>> setTo="" tooltip={{$:/language/Buttons/Info/Hint}} aria-label={{$:/language/Buttons/Info/Caption}} class="tc-btn-invisible">
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+</div>
+</div>
+
+<$let tabState={{{ [[$:/state/infotab/]addsuffix<storyTiddler>] }}}>
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/TiddlerInfo]!has[draft.of]]" default={{$:/config/TiddlerInfo/Default}} explicitState=<<tabState>>/>
+</$let>
+

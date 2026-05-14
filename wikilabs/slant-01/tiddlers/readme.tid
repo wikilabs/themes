@@ -2,12 +2,16 @@ title: $:/themes/wikilabs/slant-01/readme
 
 ! Overview
 
-This is an opinonated theme, used by pmario.
+This is an opinionated theme, used by pmario.
+
+* Compact title bar: subtitle (modifier + relative modified date) sits inline to the right of the title and wraps below when the title is long
+* Tiddler toolbar controls float to the top right of the title row
+* Clicking a tag pill opens the Tiddler Info panel and selects the //Tag Map// tab directly
 
 !! License
 
 CC-BY-NC-SA - {{$:/themes/wikilabs/slant-01/license}}
 
-''Important:'' This plugin modifies a core module and templates
+''Important:'' This theme overrides the following core templates
 
-<ul><$list filter="[[$:/themes/wikilabs/slant-01]plugintiddlers[]prefix[$:/core/]] "><li><$link to=<<currentTiddler>>><<currentTiddler>><br></$link></li></$list></ul>
+<ul><$list filter="[[$:/themes/wikilabs/slant-01]plugintiddlers[]prefix[$:/core/]] "><li><$link to=<<currentTiddler>>><<currentTiddler>></$link></li></$list></ul>

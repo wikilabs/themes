@@ -1,48 +1,59 @@
-tags: $:/tags/Stylesheet $:/wikilabs/ui
+tags: $:/tags/Stylesheet
 title: $:/themes/wikilabs/slant-01/Stylesheet
 type: text/vnd.tiddlywiki
 
-.wltc-tiddler-title .tc-titlebar{
-  position: absolute;
-  font-size: 1.1em;
+/* slant-01: compact title row, controls floated to the top-right.
+   Scoped to .tc-tiddler-view-frame so the EditTemplate is left alone. */
+
+.tc-tiddler-view-frame .tc-tiddler-title {
+	position: relative;
 }
 
-.wltc-tiddler-title {
-    overflow: hidden;
+.tc-tiddler-view-frame .tc-tiddler-title .tc-titlebar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	column-gap: 1em;
+	row-gap: 0.1em;
+	padding-right: 7em;
+	margin-bottom: 1em;
+	font-size: 1.1em;
 }
 
-.wltc-tiddler-title .tc-subtitle {
-    font-size: 0.7em;
+.tc-tiddler-view-frame .tc-tiddler-title > .tc-tiddler-controls {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 2em;
 }
 
-.tc-tiddler-controls {
-  font-size: 2.5em;
+.tc-tiddler-view-frame .tc-tiddler-title .tc-tiddler-title-icon {
+	margin-inline-end: 0.35em;
 }
 
-.tc-tiddler-controls .tc-image-button {
+.tc-tiddler-view-frame .tc-tiddler-title > .tc-tiddler-controls .tc-image-button {
 	vertical-align: top;
 }
 
-.tc-tiddler-controls .tc-drop-down .tc-image-button {
+.tc-tiddler-view-frame .tc-tiddler-title > .tc-tiddler-controls .tc-drop-down .tc-image-button {
 	vertical-align: unset;
 }
 
-.tc-tags-wrapper {
-    padding-top: 2px;
-	margin-bottom: .3em;
-    margin-top: -1em;
+.tc-tiddler-view-frame .tc-titlebar .wltc-subtitle {
+	font-size: 0.7em;
+	white-space: nowrap;
 }
 
-.tc-tiddler-body {
-    border-top: thin solid lightgray;
+.tc-tiddler-view-frame .tc-tags-wrapper {
+	padding-top: 2px;
+	margin-top: -0.4em;
+	margin-bottom: 0.3em;
 }
 
-.tc-tiddler-info {
-    padding-right: 12px;
+.tc-tiddler-view-frame .tc-tiddler-body {
+	border-top: thin solid lightgray;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.tc-tiddler-view-frame .tc-tiddler-info {
+	padding-right: 12px;
 }
