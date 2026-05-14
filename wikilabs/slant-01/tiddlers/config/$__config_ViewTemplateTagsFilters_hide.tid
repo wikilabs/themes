@@ -1,0 +1,8 @@
+created: 20260514164505055
+list-before: 
+modified: 20260514223826307
+tags: $:/tags/ViewTemplateTagsFilter
+title: $:/config/ViewTemplateTagsFilters/hide
+type: text/vnd.tiddlywiki
+
+[<tiddlerInfoState>get[text]!is[blank]] :filter[[$:/state/infotab/]addsuffix<storyTiddler>get[text]match[$:/wikilabs/ui/TiddlerInfo/TagMap]] :then[[ ]]
