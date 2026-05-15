@@ -1,11 +1,12 @@
 title: $:/themes/wikilabs/slant-01/history
 
-V 0.5.0 2026.05.14
+V 0.5.0 2026.05.15
 
-* Modernised to use TW core templates as much as possible
+* No longer deprecated. Modernised to use TW core templates as much as possible
 * Slant look reduced to a compact title bar with controls absolutely positioned (CSS-only relative to core DOM)
-* Subtitle (modifier + relative modified date) is now rendered inline beside the title and wraps below when the title is long
+* Subtitle (modifier + ISO modified date) is now rendered inline beside the title and wraps below when the title is long
 * Tag pills now open the Tiddler Info panel on the Tag Map tab directly, instead of the core dropdown
+* Standalone tag row hides while the Tag Map tab is open in the info panel, so tags are not duplicated
 * Removed redundant overrides: ViewTemplate, ViewTemplate/controls, ViewTemplate/info, ViewTemplate/tags, $:/tags/ViewTemplate, wikilabs/macros/tabs-state
 
 V 0.4.0 2023.01.13
