@@ -7,6 +7,7 @@ tags: [[$:/tags/Stylesheet]]
 
 .tc-tab-buttons {
 	display: inline-flex;
+	flex-wrap: wrap;
 	gap: 2px;
 	padding: 2px;
 	background-color: <<colour tab-background>>;
@@ -36,7 +37,7 @@ tags: [[$:/tags/Stylesheet]]
 }
 
 .tc-tab-buttons button:hover:not(.tc-tab-selected) {
-	background: transparent;
+	background: rgba(128,128,128,0.2);
 	color: <<colour foreground>>;
 }
 
@@ -65,8 +66,8 @@ tags: [[$:/tags/Stylesheet]]
 }
 
 .tc-sidebar-lists .tc-tab-buttons button:hover:not(.tc-tab-selected) {
-	background: transparent;
-	background-color: transparent;
+	background: rgba(128,128,128,0.2);
+	background-color: rgba(128,128,128,0.2);
 	color: <<colour foreground>>;
 }
 

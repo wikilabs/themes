@@ -1,0 +1,11 @@
+title: $:/themes/wikilabs/roundedtabs/history
+
+V 0.8.0 - 2026-08-03
+
+* Tab buttons wrap onto a new line in narrow sidebars, instead of forcing a horizontal scrollbar
+* More visible hover state — non-selected tabs get a subtle grey pill on hover
+* Add version number, stability badge and this history tab
+
+First commit - 2026-05-13
+
+* Initial version of the theme

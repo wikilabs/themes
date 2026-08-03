@@ -6,6 +6,8 @@
 	"plugin-type": "theme",
 	"description": "Segmented-control style underlined tabs",
 	"dependents": ["$:/themes/tiddlywiki/snowwhite","$:/plugins/wikilabs/new-style"],
-	"list": "readme license",
-	"plugin-priority": "10"
+	"list": "readme license history",
+	"plugin-priority": "10",
+	"version": "0.8.0",
+	"stability":"STABILITY_1_EXPERIMENTAL"
 }
